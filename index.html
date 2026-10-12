@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b12">
+  <meta name="description" content="Dhanalakshmi C. — web developer and digital freelancer in Chennai, India.">
+  <title>Dhanalakshmi C. — Web Developer & Digital Freelancer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress"></span></div>
+
+  <header class="site-header" id="top">
+    <a class="wordmark" href="#home" aria-label="Dhanalakshmi home"><span class="wordmark-icon">D</span><span>DHANA<span class="wordmark-dot">.</span></span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#work">Selected work</a><a href="#services">What I do</a><a href="#contact">Contact</a>
+      <a class="nav-cta" href="mailto:dhanalakshmigsk12@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-orbit orbit-one" aria-hidden="true"></div><div class="hero-orbit orbit-two" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow intro-line"><span class="live-dot"></span> WEB DEVELOPER <i>✳</i> DIGITAL FREELANCER</p>
+        <h1 id="hero-title"><span class="hero-title-small">Hello, I’m</span><span class="hero-name">Dhanalakshmi<span class="hero-period">.</span></span></h1>
+        <div class="hero-role"><span>Code with clarity.</span><span class="role-and">Design with feeling.</span></div>
+        <p class="hero-description">I’m a B.Tech IT student and creative freelancer building thoughtful websites, distinctive identities and digital experiences.</p>
+        <div class="hero-actions"><a class="button button-lime" href="#work">Explore my work <span aria-hidden="true">↘</span></a><a class="text-link" href="#about">A little about me <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-meta"><span>BASED IN CHENNAI, INDIA</span><span>AVAILABLE FOR SELECT PROJECTS <b></b></span></div>
+      </div>
+      <div class="hero-visual" aria-label="Illustrated portrait of Dhanalakshmi">
+        <div class="visual-backdrop"></div>
+        <div class="hero-spark spark-a">✳</div><div class="hero-spark spark-b">✦</div>
+        <div class="portrait-frame"><img src="images/profile-illustration.png" alt="Illustration of a web developer working at her desk"></div>
+        <div class="floating-note note-code"><span class="note-icon">&lt;/&gt;</span><span>Making the web<br><strong>feel human</strong></span></div>
+        <div class="floating-note note-design"><span class="note-icon note-star">✳</span><span>Curious mind<br><strong>creative hands</strong></span></div>
+        <span class="visual-index">01 / 04</span>
+      </div>
+      <div class="hero-bottom"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>GOOD IDEAS DESERVE GOOD DESIGN</span></div>
+    </section>
+
+    <div class="ticker" aria-label="Websites, logos, posters, and digital experiences">
+      <div class="ticker-track"><span>WEB DESIGN</span><i>✳</i><span>BRAND IDENTITY</span><i>✳</i><span>POSTER DESIGN</span><i>✳</i><span>WEB DESIGN</span><i>✳</i><span>BRAND IDENTITY</span><i>✳</i><span>POSTER DESIGN</span><i>✳</i></div>
+    </div>
+
+    <section class="about section-shell section-pad" id="about">
+      <div class="section-label reveal"><span>01</span><span>THE PERSON BEHIND THE PIXELS</span></div>
+      <div class="about-grid">
+        <h2 class="display-heading reveal">A little bit<br>of <em>logic.</em><br>A lot of <span>imagination.</span></h2>
+        <div class="about-copy reveal">
+          <p class="about-lead">I’m Dhanalakshmi, an Information Technology student who loves turning good ideas into useful, memorable digital experiences.</p>
+          <p>I bring together front-end development and visual design to make work that feels clear, considered and a little different. From the first sketch to the final interaction, I enjoy making every detail count.</p>
+          <a class="under-link" href="#contact">A project in mind? Let’s make it real <span>↗</span></a>
+        </div>
+      </div>
+      <div class="facts-row reveal"><div><span class="fact-mark">✳</span><strong>B.Tech IT</strong><small>EDUCATION</small></div><div><span class="fact-mark">↗</span><strong>Web & visual</strong><small>CREATIVE FOCUS</small></div><div><span class="fact-mark">◎</span><strong>Chennai, India</strong><small>WHERE I’M BASED</small></div><div><span class="fact-mark">∞</span><strong>Always learning</strong><small>CURRENT STATUS</small></div></div>
+    </section>
+
+    <section class="work section-shell section-pad" id="work">
+      <div class="section-label reveal"><span>02</span><span>MADE WITH CURIOSITY</span></div>
+      <div class="work-heading reveal"><div><p class="eyebrow">A FEW THINGS I’VE MADE</p><h2 class="display-heading">Selected <em>work</em><span class="heading-period">.</span></h2></div><p>Websites, identities and visual stories—each one a chance to make something click.</p></div>
+      <div class="filter-row reveal" role="group" aria-label="Filter projects">
+        <button class="filter-button is-active" data-filter="all" aria-pressed="true">Everything <span>11</span></button><button class="filter-button" data-filter="web" aria-pressed="false">Websites <span>1</span></button><button class="filter-button" data-filter="identity" aria-pressed="false">Identity <span>5</span></button><button class="filter-button" data-filter="visual" aria-pressed="false">Visual design <span>5</span></button>
+      </div>
+      <div class="work-grid">
+        <a class="work-card work-featured reveal" href="#featured-project" data-category="web">
+          <div class="work-image work-image-browser"><img src="images/sv-upvc-home.jpg" alt="SV UPVC Windows website home page" loading="lazy"><span class="image-stamp">LIVE CONCEPT ↗</span></div><div class="work-card-info"><span>WEBSITE · 01</span><h3>SV UPVC Windows <i>↗</i></h3><p>A polished digital home for a doors and windows brand.</p></div>
+        </a>
+        <a class="work-card reveal" href="#work" data-category="identity"><div class="work-image"><img src="images/nexora-logo.jpg" alt="Nexora Technologies brand identity" loading="lazy"></div><div class="work-card-info"><span>BRAND IDENTITY · 02</span><h3>Nexora Technologies <i>↗</i></h3><p>A bright, futuristic mark for a technology brand.</p></div></a>
+        <a class="work-card tall-art reveal" href="#work" data-category="visual"><div class="work-image"><img src="images/brightpath-ai-workshop.jpg" alt="BrightPath Academy AI workshop poster" loading="lazy"></div><div class="work-card-info"><span>POSTER DESIGN · 03</span><h3>Future, hands-on <i>↗</i></h3><p>A bold invitation to explore practical AI.</p></div></a>
+        <a class="work-card reveal" href="#work" data-category="identity"><div class="work-image"><img src="images/brew-haven-logo.jpg" alt="Brew Haven coffee shop logo" loading="lazy"></div><div class="work-card-info"><span>BRAND IDENTITY · 04</span><h3>Brew Haven <i>↗</i></h3><p>A warm, welcoming identity for a coffee stop.</p></div></a>
+        <a class="work-card tall-art reveal" href="#work" data-category="visual"><div class="work-image"><img src="images/brewnest-promotion.jpg" alt="BrewNest Cafe coffee promotion" loading="lazy"></div><div class="work-card-info"><span>CAMPAIGN · 05</span><h3>A little coffee joy <i>↗</i></h3><p>A rich, cozy promotion for BrewNest Café.</p></div></a>
+        <a class="work-card reveal" href="#work" data-category="identity"><div class="work-image"><img src="images/green-basket-logo.jpg" alt="Green Basket Organics logo" loading="lazy"></div><div class="work-card-info"><span>BRAND IDENTITY · 06</span><h3>Green Basket <i>↗</i></h3><p>Fresh, friendly branding for organic goodness.</p></div></a>
+        <a class="work-card tall-art reveal" href="#work" data-category="visual"><div class="work-image"><img src="images/techfest-poster.jpg" alt="TechFest 2026 event poster" loading="lazy"></div><div class="work-card-info"><span>EVENT POSTER · 07</span><h3>TechFest 2026 <i>↗</i></h3><p>Electric blue energy for a campus tech fest.</p></div></a>
+        <a class="work-card reveal" href="#work" data-category="identity"><div class="work-image"><img src="images/iron-pulse-logo.jpg" alt="Iron Pulse Fitness logo" loading="lazy"></div><div class="work-card-info"><span>BRAND IDENTITY · 08</span><h3>Iron Pulse <i>↗</i></h3><p>Strong visual energy for a fitness studio.</p></div></a>
+        <a class="work-card reveal" href="#work" data-category="visual"><div class="work-image"><img src="images/luxury-villa-ad.png" alt="Skyline Homes luxury villa advertisement" loading="lazy"></div><div class="work-card-info"><span>ADVERTISEMENT · 09</span><h3>Skyline Homes <i>↗</i></h3><p>A refined campaign for modern living.</p></div></a>
+        <a class="work-card reveal" href="#work" data-category="identity"><div class="work-image"><img src="images/gold-floral-logo.jpg" alt="Glow Aura Studio gold floral logo" loading="lazy"></div><div class="work-card-info"><span>BRAND IDENTITY · 10</span><h3>Glow Aura Studio <i>↗</i></h3><p>A graceful mark with a golden touch.</p></div></a>
+        <a class="work-card tall-art reveal" href="#work" data-category="visual"><div class="work-image"><img src="images/urban-bites-festival.png" alt="Urban Bites Weekend Food Fest event poster" loading="lazy"></div><div class="work-card-info"><span>EVENT DESIGN · 11</span><h3>Weekend Food Fest <i>↗</i></h3><p>Color, food and fun on one lively poster.</p></div></a>
+      </div>
+    </section>
+
+    <section class="featured-project section-shell" id="featured-project">
+      <div class="featured-top"><div class="section-label"><span>03</span><span>IN FOCUS</span></div><span class="eyebrow">WEB DESIGN · FRONT END</span></div>
+      <div class="featured-layout">
+        <div class="project-copy reveal"><p class="eyebrow">A DIGITAL SHOWCASE</p><h2>Spaces, framed<br><em>beautifully.</em></h2><p>A responsive website concept for SV UPVC Doors & Windows, designed to make product browsing and project discovery feel effortless.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive design</span></div><a class="button button-dark" href="#contact">Let’s build something <span>↗</span></a></div>
+        <div class="project-showcase reveal" data-carousel aria-label="SV UPVC website previews">
+          <div class="carousel-track"><figure class="project-slide is-active"><img src="images/sv-upvc-home.jpg" alt="SV UPVC home page preview" loading="lazy"><figcaption>01 — HOME</figcaption></figure><figure class="project-slide"><img src="images/sv-upvc-windows.jpg" alt="SV UPVC product page preview" loading="lazy"><figcaption>02 — WINDOWS</figcaption></figure><figure class="project-slide"><img src="images/sv-upvc-projects.jpg" alt="SV UPVC completed projects gallery" loading="lazy"><figcaption>03 — PROJECTS</figcaption></figure><figure class="project-slide"><img src="images/sv-upvc-feedback.jpg" alt="SV UPVC feedback page preview" loading="lazy"><figcaption>04 — FEEDBACK</figcaption></figure></div>
+          <div class="carousel-controls"><button class="carousel-prev" aria-label="Previous preview">←</button><div class="carousel-dots" aria-label="Choose preview"></div><button class="carousel-next" aria-label="Next preview">→</button></div>
+          <span class="showcase-caption">A WEBSITE THAT OPENS UP THE VIEW</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section-shell section-pad" id="services">
+      <div class="section-label reveal"><span>04</span><span>FROM FIRST SKETCH TO FINAL SCROLL</span></div>
+      <div class="services-heading reveal"><p class="eyebrow">HOW I CAN HELP</p><h2 class="display-heading">Good ideas,<br><em>well made.</em></h2></div>
+      <div class="service-list">
+        <article class="service-row reveal"><span class="service-number">01</span><div><h3>Website development</h3><p>Responsive, accessible websites with thoughtful interactions and a clear purpose.</p></div><span class="service-symbol">↗</span></article>
+        <article class="service-row reveal"><span class="service-number">02</span><div><h3>Logo & identity design</h3><p>Distinctive visual identities that help a brand feel like itself.</p></div><span class="service-symbol">↗</span></article>
+        <article class="service-row reveal"><span class="service-number">03</span><div><h3>Posters & campaign visuals</h3><p>Colorful, polished visuals for events, launches and social campaigns.</p></div><span class="service-symbol">↗</span></article>
+      </div>
+      <div class="skills-strip reveal"><span class="eyebrow">TOOLS I’M GROWING WITH</span><div class="skill-pills"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Canva</span><span>Creative thinking</span></div></div>
+    </section>
+
+    <section class="contact section-shell" id="contact">
+      <div class="contact-doodle" aria-hidden="true">✳</div>
+      <div class="section-label reveal"><span>05</span><span>YOUR TURN</span></div>
+      <div class="contact-content reveal"><p class="eyebrow">HAVE A GOOD ONE IN MIND?</p><h2>Let’s make<br>it <em>happen.</em></h2><a class="contact-email" href="mailto:dhanalakshmigsk12@gmail.com">dhanalakshmigsk12@gmail.com <span>↗</span></a><div class="contact-details"><a href="tel:+919360759413">+91 93607 59413</a><span>Chennai, India</span><span>Open to select freelance projects</span></div></div>
+      <section class="feedback-panel reveal" aria-labelledby="feedback-title">
+        <div class="feedback-intro"><p class="eyebrow">A QUICK NOTE</p><h3 id="feedback-title">Tell me what you <em>think.</em></h3><p>Your feedback helps me make this portfolio and my work better. Your email stays private; only your name, rating and note can appear below.</p></div>
+        <form id="feedback-form" class="feedback-form">
+          <div class="feedback-fields">
+            <label>Name<input type="text" name="name" maxlength="120" autocomplete="name" placeholder="Your name" required></label>
+            <label>Email<input type="email" name="email" maxlength="254" autocomplete="email" placeholder="you@example.com" required></label>
+            <label class="rating-field">Your rating<select name="rating" required><option value="">Choose a rating</option><option value="5">★★★★★ — Excellent</option><option value="4">★★★★ — Very good</option><option value="3">★★★ — Good</option><option value="2">★★ — Could be better</option><option value="1">★ — Needs work</option></select></label>
+            <label class="message-field">Your feedback<textarea name="message" rows="4" maxlength="2000" placeholder="Share a thought or suggestion…" required></textarea></label>
+          </div>
+          <div class="feedback-submit-row"><p id="feedback-status" role="status" aria-live="polite"></p><button class="button button-dark" type="submit">Send feedback <span aria-hidden="true">↗</span></button></div>
+        </form>
+        <div class="visitor-notes"><div class="visitor-notes-heading"><span class="eyebrow">FROM THE COMMUNITY</span><span class="eyebrow">LATEST NOTES</span></div><div id="public-feedback-list" class="visitor-notes-list" aria-live="polite"><p class="visitor-note-empty">Loading feedback…</p></div></div>
+      </section>
+      <footer class="site-footer"><a class="wordmark" href="#top"><span class="wordmark-icon">D</span><span>DHANA<span class="wordmark-dot">.</span></span></a><span>MADE WITH CURIOSITY · © <span id="year"></span></span><a href="#top">BACK TO TOP ↑</a></footer>
+    </section>
+  </main>
+</body>
+</html>
